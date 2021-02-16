@@ -41,12 +41,4 @@ int main()
 
 		SetInputBuffer();
 	}while(LoopItr);
-
-
-	string str1 = "Step on no pets";
-	retFromPalindrom=IsPalindrome(UserInputStr);
-	cout << "-----------------------------------------\n";
-	//cout << "Palindrome Returned=" << retFromPalindrom << "\n";
-	fputs(retFromPalindrom ? "true" : "false", stdout);
-	cout << "-----------------------------------------\n";
 } 
